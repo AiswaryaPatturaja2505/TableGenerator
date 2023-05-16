@@ -26,17 +26,17 @@ This project was generated with [CLion 2023.1.2](https://www.jetbrains.com/clion
 
 RapidXML is used to extract XML data from the input file, since it is the fastest XML parser possible, while retaining useability, portability and reasonable W3C compatibility.
 
-Step 1: XML file to XML node objects.
+####  1: XML file to XML node objects.
 Create a method the extracts the xml file content into xml nodes format.
 
-Step 2: XML node to table data.
+####  2: XML node to table data.
 Based on the XML reference, we will be needing to extract root node <CATALOG>, list of its child (<cd>), name and value data of each child.
   
-Step 3: HTML table Construction.
+#### 3: HTML table Construction.
 1. Create a string variable to store the HTML data.
 2. Extract only first child of <CATALOG> whose child nodes comprises headers for table. Iterate the list with <th> tag enclose them with <tr> tag.
 3. Now extract all the child of root node and iterate their values. Those values are made int <td> tags. Enclose all these tags with <table> tag.
   
-Step 4 : Creating HTML file.
+#### 4 : Creating HTML file.
 Add standard HTML, Header, body and style tags to the HTML table string. Now create a file named "output.html" and load the string to the file. <fstream> is used for file handling.
  
