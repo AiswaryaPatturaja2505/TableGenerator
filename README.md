@@ -19,7 +19,9 @@ This project was generated with [CLion 2023.1.2](https://www.jetbrains.com/clion
 ### Technologies Used.
 
 **IDE** :  [CLion 2023.1.2](https://www.jetbrains.com/clion/whatsnew/)
+
 **Language** :  CPP version 23.
+
 **XML Parser** : [RapidXML](https://rapidxml.sourceforge.net/#:~:text=RapidXml%20is%20an%20attempt%20to,executed%20on%20the%20same%20data.)
  
 ### Design.
@@ -37,6 +39,6 @@ Based on the XML reference, we will be needing to extract root node <CATALOG>, l
 2. Extract only first child of <CATALOG> whose child nodes comprises headers for table. Iterate the list with <th> tag enclose them with <tr> tag.
 3. Now extract all the child of root node and iterate their values. Those values are made int <td> tags. Enclose all these tags with <table> tag.
   
-#### 4 : Creating HTML file.
+#### 4: Creating HTML file.
 Add standard HTML, Header, body and style tags to the HTML table string. Now create a file named "output.html" and load the string to the file. <fstream> is used for file handling.
  
