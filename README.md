@@ -6,7 +6,7 @@ This project was generated with [CLion 2023.1.2](https://www.jetbrains.com/clion
 
 ## How to Use
 
-1. Download the XMLtoHTMLConverter.exe from the location.
+1. Download the [XMLtoHTMLConverter.exe](https://github.com/AiswaryaPatturaja2505/TableGenerator/blob/main/cmake-build-debug/XMLtoHTMLConverter.exe) from the location .
 2. Place the xml file in the same folder as exe file (if not, need to the give full path of the xml file).
 3. Run the exe file and you will be seeing this text "Enter the XML file name :" on console window.
 4. Now enter the file name and click on enter (ref below image).
