@@ -1,4 +1,4 @@
-# Table Generator
+# HTML Table Generator
 
 Table Generator is a cpp console application which takes XML file as a input and creates a HTML file(output.html) with the table created from the xml data.
 
