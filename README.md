@@ -11,6 +11,7 @@ This project was generated with [CLion 2023.1.2](https://www.jetbrains.com/clion
 3. Run the exe file and you will be seeing this text "Enter the XML file name :" on console window.
 4. Now enter the file name and click on enter (ref below image).
 <img width="431" alt="image" src="https://github.com/AiswaryaPatturaja2505/TableGenerator/assets/129544836/d385c77e-1b45-47c4-b8a6-8e2affa276f7">
+
 5. Now you should be able to see a HTML file named **output.html**. This file will the table format of the XML data.
 
 ## Documentation
